@@ -16,8 +16,13 @@
 
 <style>
     .header {
-        padding: 2rem 10rem;
+        padding: 2rem 0;
         background-color: #3c366b;
+    }
+
+    .nav {
+        margin: 0 auto;
+        max-width: 70rem;
     }
 
     .nav__list {
