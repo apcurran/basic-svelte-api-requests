@@ -1,5 +1,5 @@
 <section class="home-section">
-    <h1>Home</h1>
+    <h1 class="home-title">Home</h1>
     {#each posts as post}
         <article class="post">
             <h3 class="post__title">{ post.title }</h3>
@@ -24,6 +24,10 @@
 </script>
 
 <style>
+    .home-title {
+        font-size: 2rem;
+    }
+
     .home-section {
         margin: 2.5rem auto;
         padding: 0 1rem;
